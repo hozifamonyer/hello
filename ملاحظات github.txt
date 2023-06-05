@@ -1,0 +1,6 @@
+ git clone نسخ مشروع $ 
+git add اضافة تعديل$
+git add .gitghorne$
+git *$
+git push رفع تعديلات على github$
+git commit -m تثيت تعديلات بشكل نهائي$

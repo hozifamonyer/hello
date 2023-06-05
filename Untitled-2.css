@@ -1,0 +1,8 @@
+.opp nav div ul li a {
+    text-align: center;
+     
+}
+.opp nav div ul li a:hover {
+    background-color: brown;
+     
+}
