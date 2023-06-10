@@ -1,6 +1,6 @@
  git clone نسخ مشروع $ 
 git add اضافة تعديل$
-git add .gitghorne$
+git add .gitignore$
 git add *$
 git status$
 git commit -m "رسالة معينة" تثيت تعديلات بشكل نهائي$
