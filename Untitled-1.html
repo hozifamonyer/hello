@@ -103,64 +103,52 @@
       </button>
     </div>
 
-    <div class="bg-success w-100 h-50 p-2 m-2 container-sm container-lg ">
-      <div class="row">
-        <div class="h1 bg-danger col-2 text-white w-50  "
-          style="box-shadow: -6px -1px 7px 4px yellow;">hello world</div>
-        <div class="h4 text-light">Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Officiis dolor delectus neque, ipsam possimus ipsa.
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+      data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            هذه الصفحة نسخة تجريبي وشكرا
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"
+              data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
         </div>
       </div>
     </div>
-   <div class="container container-lg container-md container-sm">
-    <div class="row">
-      <div class="card w-25 m-1  bg-dark text-light " style="text-align: center;" >
-        <img class="card-img-top w-50 rounded rounded-circle" src="2.jpg" alt="Card image" style="position: relative ; left: 70px;">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, sunt..</p>
-          <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">See Profile</a>
-        </div>
-      </div>
+    <br>
+    <div class="card w-25" id="card">
+      <div class="card-header" id="card-header">Header</div>
+      <div class="card-body" id="card-body">Content</div>
+      <div class="card-footer" id="card-footer">Footer</div>
+    </div>
+    <div>
+      <table class="table table-hover table-hover">
+        <tr><td>frist name</td> 
+    <td>last name</td>  </tr>
+      <tr><td id="frist name1"> </td>
+         <td id="lats1"></td>                    
+      </tr>
+      <tr>
+        <td id="frist name2">
+          <td id="lats2"></td>
+        </tr>
+        <tr>
+          <td id="frist name3"></td>
+          <td id="lats3"></td>
+        </tr>
+      </table>
+    </div>
 
-      <div class="card w-25  m-1 bg-dark text-light" style="text-align: center;" >
-        <img class="card-img-top w-50 rounded rounded-circle" src="2.jpg" alt="Card image" style="position: relative ; left: 70px;">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, sunt..</p>
-          <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">See Profile</a>
-        </div>
-      </div>
-
-       <div class="card w-25 m-1 bg-dark text-light" style="text-align: center;" >
-      <img class="card-img-top w-50 rounded rounded-circle" src="2.jpg" alt="Card image" style="position: relative ; left: 70px;">
-      <div class="card-body">
-        <h4 class="card-title">John Doe</h4>
-        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, sunt..</p>
-        <a href="#" class="btn btn-danger " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >See Profile</a>
-      </div>
-    </div>
-    </div>
-   </div>
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-      هذه الصفحة نسخة تجريبي وشكرا 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
-<h4 id="ss"></h4>
     <script src="Untitled-3.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
